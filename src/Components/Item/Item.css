@@ -1,0 +1,40 @@
+
+
+.cardItem {
+    
+    width: 300px;
+    height: 500px;
+    margin: 50px;
+    border-radius: 7px;
+    box-shadow: 2px 4px 15px 1px #2b2d42;
+    
+}
+
+.itemHeader {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px ;
+}
+
+.itemImg {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+section {
+    margin: 30px;
+    font-family: menu;
+    font-size: 1.1rem;
+    color: #2b2d42;
+    /* background-color: #d90429; */
+}
+
+.info {
+    margin: 5px;
+    
+    
+}
+
+/* .infoPrecio {
+    font-size: 2rem;
+} */

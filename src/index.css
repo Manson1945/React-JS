@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+
+
+/* MI ESTILO */
+
+
+@font-face {
+  font-family: titulo;
+  src: url(./FONTS/EBGaramond-ExtraBold.ttf); }
+
+@font-face {
+  font-family: menu;
+  src: url(./FONTS/NotoSerifToto-Bold.ttf); }
+
+  @font-face {
+    font-family: minusculabold;
+    src: url(./FONTS/Literata-Bold.ttf); }
+
+nav {
+  height: 100px;
+  background-image: linear-gradient(to right, #d90429, #2b2d42);
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.tituloPpal  { 
+  
+  align-self:center;
+  
+  font-family: titulo;
+  font-style: italic;
+  font-size: 2.5rem;
+  color: #2b2d42;
+}
+
+span {
+  color: #edf2f4;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+button {
+  width: 120px;
+  height: 30px;
+  margin: 50px;
+  
+  padding:5px;
+  font-family: menu;
+  font-size: .9rem;
+  font-weight: bolder;
+ 
+  border-radius: 5px;
+  box-shadow: 2px 4px 15px 1px #2b2d42;
+  background-color: #2b2d42 ;
+  color: #edf2f4;
+}
+
+.botones {
+  
+  width: 120px;
+  height: 30px;
+  margin: 50px;
+  
+  padding:5px;
+  font-family: menu;
+  font-size: .9rem;
+  font-weight: bolder;
+  border:#d90429 1px solid;
+  border-radius: 5px;
+  box-shadow: 2px 4px 15px 1px #2b2d42;
+  background-color: #2b2d42 ;
+  color: #edf2f4;
+
+}
+
+
+
+
+.categories {
+margin-top: 50px;
+  
+}
+
+#imgContainer {
+  align-self: center;
+  width: 80px;
+  height: 50px;
+  
+ 
+
+}
+
+.cartImg {
+
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  
+}
+
+ 
+
+.cartNumber {
+      
+      font-size: 1.2rem;
+      
+  
+}
+
+
+.welcome {
+  margin-top: 5px;
+  font-size: 1.5rem;
+  font-family: minusculabold;
+  font-style: italic;
+
+}
+
+
+h2 {
+  margin: 0;
+  padding: 20px;
+  font-size: 1.5rem ;
+  font-family:minusculaBold;
+  font-weight:bolder;
+  font-style: italic;
+  background-image: linear-gradient(to right, #d90429, #2b2d42);
+  color:#edf2f4;
+}
+
+
+.numero {
+  padding-top: 20px;
+}
+
+.cardItem section p {
+  
+  padding: 2px;
+}
+
+/* MI ESTILO */

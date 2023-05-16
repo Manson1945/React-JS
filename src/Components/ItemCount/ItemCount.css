@@ -1,0 +1,29 @@
+
+
+.controlContainer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    
+} 
+
+
+.btn {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-color: #d90429;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+    
+}
+
+.btnAgregar {
+    width: 200px;
+    height: 50px;
+    border-color: #d90429;
+}
