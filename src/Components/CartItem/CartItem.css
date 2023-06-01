@@ -1,0 +1,28 @@
+
+.productsContainer {
+    margin: 30px;
+    border-radius:20px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #464861;
+}
+
+.imagen {
+    width: 100px;
+    height: 100px;
+}
+
+.name {
+    font-size: 2rem;
+    font-family: menu;
+    font-weight: bolder;
+    color: #edf2f4;
+    
+}
+
+.text {
+    font-family:minusculaBold;
+    font-size: 1.1rem;
+    color: #edf2f4;
+}
