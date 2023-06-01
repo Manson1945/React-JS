@@ -12,10 +12,11 @@ const CartWidget = () => {
             
 
             <img className="CartImg" src={cart} alt='cart-widget' />
-            {totalQuantity}
+            {totalQuantity()}
             
         </Link>
     )
+
 }
 
 export default CartWidget
