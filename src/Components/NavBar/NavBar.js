@@ -13,7 +13,7 @@ const NavBar = () => {
 
            <div className="categories" >
 
-            <NavLink to= {`/category/guitarras`} className="botones">GUITARRAS</NavLink>
+            <NavLink to= {`../../Service/Firebase/firebaseConfig.js`} className="botones">GUITARRAS</NavLink>
             <NavLink to= {`/category/bajos`} className="botones">BAJOS</NavLink>
             <NavLink to= {`/category/baterias`} className="botones">BATERIAS</NavLink>
 
