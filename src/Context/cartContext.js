@@ -50,7 +50,7 @@ const totalQuantity = () => {
 
 const total = () => {
 
-    const precioTotal = cart.reduce ((total, item) => total + (item.price * item.quantity, 0));
+    const precioTotal = cart.reduce ((total, item) => total + item.price * item.quantity, 0);
 
     return precioTotal
 }

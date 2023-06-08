@@ -15,7 +15,7 @@ const handleOnAdd = (quantity) => {
     
 
 const item = {
-    id, name, price
+    id, name, price, img
 }
 
 addItem (item, quantity)

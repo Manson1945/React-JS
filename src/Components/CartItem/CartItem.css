@@ -11,6 +11,9 @@
 .imagen {
     width: 100px;
     height: 100px;
+    padding: 3px;
+    background-color:#edf2f4;
+    border-radius: 100%;
 }
 
 .name {
