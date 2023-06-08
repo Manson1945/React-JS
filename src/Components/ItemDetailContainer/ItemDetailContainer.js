@@ -9,7 +9,7 @@ import {db} from "../../Service/Firebase/firebaseConfig"
 
 const ItemDetailContainer = () => {
 
-    const [product, setProduct] = useState (null)
+    const [products, setProduct] = useState (null)
     const [loading, setLoading] = useState (true)
 
     const {itemId} = useParams()
@@ -32,28 +32,14 @@ const ItemDetailContainer = () => {
             .finally(() => {
                 setLoading(false)
             })
-    }, [itemId])
+    },[itemId])
 
-   /*  const [product, setProduct] = useState (null)
-
-    const {itemId} = useParams()
-
-    useEffect(() => {
-
-        getProductById(itemId)
-        .then(response => {
-            setProduct(response)
-        })
-
-        .catch(error => {
-            console.error(error)
-        })
-    }, [itemId]) */
+ 
 
     return (
         <div className='itemDetailContainer'>
 
-            <ItemDetail {...product} />
+            <ItemDetail {...products} />
 
         </div>
     )
