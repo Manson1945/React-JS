@@ -47,7 +47,12 @@ const ItemListContainer = ({ greeting }) => {
         <div>
 
             <h2>{greeting} Bienvenido a nuestra Casa de Instrumentos...</h2>
+
+            <div className='container'>
+
             <ItemList products={products}/>
+
+            </div>
 
         </div>
    

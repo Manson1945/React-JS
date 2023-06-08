@@ -6,6 +6,7 @@ import ItemListContainer from './Components/ItemListContainer/ItemListContainer'
 import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer';
 import Cart from './Components/Cart/Cart';
 import { CartProvider } from './Context/cartContext';
+import Checkout from "./Components/Checkout/Checkout"
 
 
 
@@ -28,6 +29,7 @@ return (
             <Route path= '/cart' element={<Cart />} />
             <Route path='*' element = {<h1> 404 NOT FOUND </h1>} />
             <Route path= './Service/Firebase' element = {<firebaseConfig />} />
+            <Route path='/checkout' element= {<Checkout />} />
             
           </Routes> 
 

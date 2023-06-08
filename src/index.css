@@ -180,6 +180,8 @@ h2 {
   padding-top: 20px;
 }
 
+
+
 .cardItem section p {
   
   padding: 2px;
@@ -222,4 +224,12 @@ h2 {
   color: #d90429;
   
   
+}
+
+
+
+.ListGroup {
+  
+  display: flex;
+  flex-wrap: wrap;
 }
