@@ -14,7 +14,7 @@ export const CartItem = ({name, price, quantity, img, id}) => {
     return (
         <div className='productsContainer'>
             
-            <picture> <img src={img} className='imagen' /> </picture>
+            <picture> <img src={img} className='imagen' alt='pic' /> </picture>
             <p className='name'>{name}</p>
             <p className='text'>Precio x unidad: {price}</p>
             <p className='text'>Cantidad: {quantity}</p>

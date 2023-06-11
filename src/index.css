@@ -221,7 +221,7 @@ h2 {
   font-family:minusculaBold;
   font-size: 3rem;
   font-weight: bolder;
-  color: #d90429;
+  color: #d67506;
   
   
 }
@@ -232,4 +232,27 @@ h2 {
   
   display: flex;
   flex-wrap: wrap;
+}
+
+.checkOut {
+  margin-top: 2px;
+  padding: 10px;
+  background-image: linear-gradient(to right, #d90429, #2b2d42);
+  font-family:minusculaBold;
+  font-weight:bolder;
+  font-style: italic;
+  border: #2b2d42 solid 1px;
+  color: #edf2f4;
+}
+
+
+.orderGenerator {
+  border-radius: 20px;
+  margin: 100px;
+  padding: 50px;
+  background-color: #2b2d42;
+  color: #edf2f4;
+  font-family:minusculaBold;
+  font-size: 2rem;
+  
 }

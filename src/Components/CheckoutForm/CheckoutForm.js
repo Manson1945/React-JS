@@ -1,3 +1,4 @@
+import "./ChekoutForm.css"
 import {useState} from "react"
 
 const CheckoutForm = ({ onConfirm }) => {
@@ -48,7 +49,7 @@ return (
             </label>
 
             <div className="label">
-                <button type="submit" className="button"> Crear Órden </button>
+                <button type="submit" className="button orderBtn"> Crear Órden </button>
             </div>
         </form>
     </div>

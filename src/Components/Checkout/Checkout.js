@@ -22,7 +22,7 @@ const Checkout = () => {
                     name, phone, email },
                      
                 items: cart,
-                total: total,
+                total: total(),
                 date: Timestamp.fromDate( new Date())
             }
 
@@ -40,10 +40,10 @@ const Checkout = () => {
 
             docs.forEach(doc => {
                 const dataDoc = doc.data()
-                const stockDb = dataDoc.stockDb
+                const stockDb = dataDoc.stock
 
                 const productAddedToCart = cart.find(prod => prod.id === doc.id)
-                const prodQuantity = productAddedToCart?.prodQuantity
+                const prodQuantity = productAddedToCart?.quantity
 
                 if(stockDb >= prodQuantity) {
                     batch.update(doc.ref, {stock: stockDb - prodQuantity})
@@ -82,17 +82,17 @@ const Checkout = () => {
 
     if(loading) {
 
-        return <h1>Se está generando la órden...</h1>
+        return <h1 className="orderGenerator">Se está generando la órden...</h1>
     }
 
     if(orderId) {
 
-        return <h1>El id de su órden es: {orderId}</h1>
+        return <h1 className="orderGenerator">El id de su órden es: {orderId}</h1>
     }
 
     return (
         <div>
-            <h1>Checkout</h1>
+            <h1 className="checkOut">Checkout</h1>
             <CheckoutForm onConfirm= {createOrder} />
         </div>
     )
